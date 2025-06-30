@@ -72,22 +72,22 @@
 
 
 # Simulate a traffic light system
-import sys
-light= input("enter any color from red,yellow,green:")
+# import sys
+# light= input("enter any color from red,yellow,green:")
 
-if light not in ('red', 'yellow', 'green'):
-    print(f"{light} is an invalid option. Choose from red, yellow, green.")
-    sys.exit()
+# if light not in ('red', 'yellow', 'green'):
+#     print(f"{light} is an invalid option. Choose from red, yellow, green.")
+#     sys.exit()
 
     
-if light=='red':
-    print("stop")
-elif light =='yellow':
-    print("slow down and prepare to stop")
-elif light =='green':
-    print("there is a predstain waiting, stop")
-else:
-    print("go")
+# if light=='red':
+#     print("stop")
+# elif light =='yellow':
+#     print("slow down and prepare to stop")
+# elif light =='green':
+#     print("there is a predstain waiting, stop")
+# else:
+#     print("go")
     
     
 # check if a given password is strong

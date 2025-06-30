@@ -112,3 +112,21 @@
 # print(unique_list)
 
 
+# Write Python code to:
+# --Retrieve the third element of the list.
+# --Create a new list that contains only the first three elements.
+# --Replace the last element of the list with 100.
+# --Check if the number 40 is in the list.
+# --Find the length of the list.
+
+# num = [10,20,30,40,50,60]
+# print(num[2])
+# print(num[:3])
+# num[-1]=100
+# print(num)
+# print(40 in num)
+# print(len(num))
+
+
+
+
