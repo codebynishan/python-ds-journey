@@ -69,7 +69,7 @@
 #     sum += i
 #     i += 1
 # print(sum)
-    
+ 
 # nested while loop
 # list1 =[1,2,3]
 # list2=[4,5,6]
@@ -82,19 +82,40 @@
 #     print()
 #     i += 1
 
+
 # import random
-# conn = random.randint(1,10)
-# print(conn)
-# count =1
-# max_count = 3
-# while (count<=max_count):
+# com = random.randint(1,10)
+# print(com)
+# user = 0
+# computer = 0
+# while(True):
 #     userinput = int(input("enter a number: "))
-#     count += 1
-#     if conn == userinput:
-#         print("number match")
-#         break
+
+#     if com == userinput:
+#         print("number match ")
+#         user = user + 10
+#         computer = computer-5
+#         com = random.randint(1,10)
+
 #     else:
 #         print("please try again")
-# if count == max_count and conn != userinput:
-#     print("you are on max count")
+#         user = user - 5
+#         computer = computer+10
 
+#     if computer>=100 or user>=100:
+#         if computer>=100:
+#             print("computer win")
+#             break
+#         elif user>=100:
+#             print("user win")
+#             break
+
+# print(int(random.random()*100))
+
+
+# print(random.randint(1,10))
+# a = ["sudan","suman","hari","subash"]
+# print(random.choice(a))
+
+
+# com=random.randint(20,25)##print(com)user=int(input("enter the number from 20-24"))if com==user:    print("nice")else:    print("better luck next time")
