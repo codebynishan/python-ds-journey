@@ -37,6 +37,13 @@
 
 # print(flatten_list(a))
 
+# def cal_sum(n):
+#     if(n==0):
+#         return
+#     print(n)
+#     cal_sum(n-1)
+# cal_sum(5)
+
 
 # lambda
 
