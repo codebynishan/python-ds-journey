@@ -109,6 +109,20 @@
 #         exit()
 
 
+# import requests
+# link =  "https://restcountries.com/v3.1/name/nepal"
+
+# r = requests.get(link)
+# if r.status_code == 200:
+#     data = r.json()
+#     nepal =data
+    
+    
+#     for i in nepal:
+#         print(i['name']['official'],i['capital'],i['currencies'])
+
+
+
 
             
             
