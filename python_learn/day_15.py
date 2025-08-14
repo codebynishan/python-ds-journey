@@ -26,8 +26,8 @@ mycursor = mydb.cursor()
 
 
 insert ="insert into student(id,name,age,address,faculty)values(%s,%s,%s,%s,%s)"
-data = [(11,'nishan rana',23,'ktm','science'),
-        (22,'sagar thapa',20,'lalitpur','management')]
+data = [(111,'nishan rana',23,'ktm','science'),
+        (222,'sagar thapa',20,'lalitpur','management')]
 mycursor.executemany(insert,data)
 mydb.commit()
 
