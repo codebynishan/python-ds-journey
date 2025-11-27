@@ -2,7 +2,7 @@ import requests
 import mysql.connector
 import mysql
 from datetime import datetime
-# inserting data 
+
 def insert_data(cursor,data,db):
     print(f"this mf is runned, {data}")
     try:
